@@ -12,3 +12,9 @@ def contact(request):
 
 def typography(request):
     return render(request,'typography.html')
+
+def starter(request):
+    return render(request,'starter-page.html')
+
+def shop(request):
+    return render(request,'shop.html')
