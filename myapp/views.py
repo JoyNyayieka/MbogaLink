@@ -18,3 +18,6 @@ def starter(request):
 
 def shop(request):
     return render(request,'shop.html')
+
+def testimonials(request):
+    return render(request,'testimonials.html')

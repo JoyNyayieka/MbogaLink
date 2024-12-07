@@ -9,7 +9,7 @@
 
       {% load static %}
 
-    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon">
+    <link rel="icon" href="{% static 'images/favicon2.png' %}" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,400,500">
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
@@ -40,7 +40,7 @@
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="{% static 'images/logo-default-196x47.png' %}" alt="" width="196" height="47"/></a></div>
+                  <div class="rd-navbar-brand"><a class="brand" href="index.html"><img src="{% static 'images/default-logo.png' %}" alt="" width="196" height="47"/></a></div>
                 </div>
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
@@ -110,7 +110,7 @@
                       </li>
                       <li class="rd-nav-item active"><a class="rd-nav-link" href="{% url 'about' %}">About Us</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="{% url 'typography' %}">Typography</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="{% url 'testimonials' %}">Testimonials</a>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="{% url 'contact' %}">Contact Us</a>
                       </li>
@@ -338,51 +338,7 @@
         </div>
       </section>
 
-      <!-- What people say-->
-      <section class="section context-dark">
-        <div class="parallax-container" data-parallax-img="images/bg-parallax-2.jpg">
-          <div class="parallax-content section-md bg-overlay-2-21">
-            <div class="container">
-              <div class="oh">
-                <h2 class="wow slideInUp" data-wow-delay="0s">What People Say</h2>
-              </div>
-              <!-- Owl Carousel-->
-              <div class="owl-carousel owl-modern" data-items="1" data-stage-padding="15" data-margin="30" data-dots="true" data-animation-in="fadeIn" data-animation-out="fadeOut" data-autoplay="true">
-                <!-- Quote Lisa-->
-                <article class="quote-lisa">
-                  <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="{% static 'images/user-16-100x100.jpg' %}" alt="" width="100" height="100"/></a>
-                    <div class="quote-lisa-text">
-                      <p class="q">I picked up a head of your lettuce at a local grocery store today. What an amazing and beautiful lettuce it is! I’ve never seen another so full and green and tempting.</p>
-                    </div>
-                    <h5 class="quote-lisa-cite"><a href="#">Samantha Peterson</a></h5>
-                    <p class="quote-lisa-status">Regular Client</p>
-                  </div>
-                </article>
-                <!-- Quote Lisa-->
-                <article class="quote-lisa">
-                  <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="{% static 'images/user-17-100x100.jpg' %}" alt="" width="100" height="100"/></a>
-                    <div class="quote-lisa-text">
-                      <p class="q">I wanted to tell you how amazing it was to see the farm and how much we love the food. Your apples and carrots are just wonderful and their taste is great.</p>
-                    </div>
-                    <h5 class="quote-lisa-cite"><a href="#">John Wilson</a></h5>
-                    <p class="quote-lisa-status">Regular Client</p>
-                  </div>
-                </article>
-                <!-- Quote Lisa-->
-                <article class="quote-lisa">
-                  <div class="quote-lisa-body"><a class="quote-lisa-figure" href="#"><img class="img-circles" src="{% static 'images/user-18-100x100.jpg' %}" alt="" width="100" height="100"/></a>
-                    <div class="quote-lisa-text">
-                      <p class="q">The food from your farm is wonderful. So many nights when we sit down to dinner we can say everything on this plate is locally grown and delicious. Thank you!</p>
-                    </div>
-                    <h5 class="quote-lisa-cite"><a href="#">Kate Anderson</a></h5>
-                    <p class="quote-lisa-status">Regular Client</p>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       <section class="section section-md section-last bg-gray-100">
         <div class="container">
@@ -401,7 +357,7 @@
               <div class="col-sm-6 col-lg-4 col-xl-3">
                 <div class="oh-desktop">
                   <div class="wow slideInRight" data-wow-delay="0s">
-                    <div class="footer-brand"><a href="index.html"><img src="{% static 'images/logo-inverse-196x42.png' %}" alt="" width="196" height="42"/></a></div>
+                    <div class="footer-brand"><a href="index.html"><img src="{% static 'images/default-logo.png' %}" alt="" width="196" height="42"/></a></div>
                     <p>MbogaLink is an organic farm located in California. We offer healthy foods and products to our clients.</p>
                     <ul class="footer-contacts d-inline-block d-md-block">
                       <li>
