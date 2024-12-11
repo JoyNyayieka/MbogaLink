@@ -1,0 +1,32 @@
+{% extends 'starter-page.html' %}
+{% load static %}
+
+{% block body %}
+
+    <div class="container mt-5">
+    <h2 class="text-center">Upload Your Produce</h2>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+
+        <div class="form-group">
+            <label for="produceImage">Upload Image</label>
+            <input type="file" class="form-control" id="image" name="image" required>
+        </div>
+        <div class="form-group">
+            <label for="produceName">Produce Name</label>
+            <input type="text" class="form-control" id="produce_name" name="produce_name" placeholder="Enter produce name" required>
+        </div>
+        <div class="form-group mt-3">
+            <label for="price">Price (Ksh)</label>
+            <input type="number" class="form-control" id="price" name="price" placeholder="Enter price" required>
+        </div>
+        <button type="submit" class="btn btn-primary mt-4 w-100">Submit</button>
+        <p></p>
+        <p></p>
+        <p></p>
+
+    </form>
+</div>
+
+{% endblock %}
+

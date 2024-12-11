@@ -931,7 +931,7 @@
 					'MF254': 'Something went wrong with PHPMailer!',
 					'MF255': 'Aw, snap! Something went wrong.'
 				};
-
+su
 			for (i = 0; i < plugins.rdMailForm.length; i++) {
 				var $form = $(plugins.rdMailForm[i]),
 					formHasCaptcha = false;
