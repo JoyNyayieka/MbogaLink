@@ -1,8 +1,8 @@
-# 🛒 MbogaLink
+# MbogaLink
 
 ##  Project Overview
 
-This project is a Django-based e-commerce platform tailored for small-scale fresh produce vendors. It enables vendors to list their products, manage inventory, and receive payments, while customers can browse nearby vendors, view fresh produce, and place orders. 
+This project is a Django-based e-commerce platform tailored for Mama Mbogas (small-scale fresh produce vendors). It enables vendors to list their products, manage inventory, and receive payments, while customers can browse nearby vendors, view fresh produce, and place orders. 
 
 The platform is optimized for accessibility and ease of use, especially for users with limited technical expertise, and it aims to bridge the digital gap in informal markets by offering a lightweight, mobile-friendly solution.
 
@@ -20,7 +20,19 @@ The platform is optimized for accessibility and ease of use, especially for user
 |  Authentication                   | Login system for vendors and customers with secure credential handling.     |
 
 ---
+## Screenshots of the system
+<h4>Homepage</h4>
+<img src="screenshots/indexpage.png" alt="Homepage" width="600"/>
 
+<h4>Authentication Page</h4>
+<img src="screenshots/authpage.png" alt="Auth Form" width="600"/>
+
+<h4>Vendor Upload Form</h4>
+<img src="screenshots/uploadpage.png" alt="Upload Form" width="600"/>
+
+<h4>Payment Form</h4>
+<img src="screenshots/paymentpage.png" alt="Payment Form" width="600"/>
+----
 ##  Technologies Used
 
 | Category            | Tools/Technologies                               |
