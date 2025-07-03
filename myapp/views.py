@@ -113,6 +113,11 @@ def uploadimg(request):
     else:
         return render(request, 'uploadimg.html')
 
+#def imagedelete(request, id):
+    #image = Product.objects.get(id=id)
+    #image.delete()
+    #return redirect('/showimage')
+
 def token(request):
     consumer_key = 'yAKxzGusBGuapzV57mpFhHwi2xAXkm0FgqJ3EY1aECTex0JW'
     consumer_secret = 'IbGLwoJpVVGBhsvAeGRk7Oh3XKGSq0Sap44M5sSahbJruijLhoxOt6EWzbs0As1h'
@@ -150,6 +155,6 @@ def stk(request):
             "TransactionDesc": "MbogaLink payment"
         }
         response = requests.post(api_url, json=request, headers=headers)
-        return HttpResponse("Payment made successfull!")
+        return HttpResponse("Payment made successfully!")
 
 

@@ -17,6 +17,9 @@ urlpatterns = [
     path('vendorlogin', views.vendorlogin, name='vendorlogin'),
     path('vendorregistration', views.vendorregistration, name='vendorregistration'),
     path('uploadimg', views.uploadimg, name='uploadimg'),
+    #path('imagedelete/<int:id>', views.imagedelete),
+
+
     path('pay/', views.pay, name='pay'),
     path('stk/', views.stk, name='stk'),
     path('token/', views.token, name='token'),
