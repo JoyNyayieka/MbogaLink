@@ -31,8 +31,9 @@ The platform is optimized for accessibility and ease of use, especially for user
 <img src="screenshots/uploadpage.png" alt="Upload Form" width="600"/>
 
 <h4>Payment Form</h4>
-<img src="screenshots/paymentpage.png" alt="Payment Form" width="600"/>    
-----    
+<img src="screenshots/paymentpage.png" alt="Payment Form" width="600"/>      
+
+---       
 ##  Technologies Used
 
 | Category            | Tools/Technologies                               |
