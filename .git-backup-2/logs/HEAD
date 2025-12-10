@@ -1,2 +1,0 @@
-45e180a542579641d6ef3e0aed1b9be827e57ac8 a25f148d596781ba2e05dfeea58e44daadf7316c Mitch Nyayieka <joynyayieka@gmail.com> 1765355909 +0300	commit: secure sensitive credentials using env variables
-a25f148d596781ba2e05dfeea58e44daadf7316c c8c9a2acf04d6760dfaffc2f84ed4510a6914349 Mitch Nyayieka <joynyayieka@gmail.com> 1765356856 +0300	commit: remove .env from tracking and add .gitignore
